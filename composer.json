@@ -1,0 +1,37 @@
+{
+	"name": "adrifkat/cryptopanic",
+	"description": "PHP unofficial client to cryptopanic.com API",
+	"version": "1.0.0",
+	"keywords": [
+		"cryptopanic",
+		"crypto",
+		"client",
+		"api",
+		"news",
+		"aggregator",
+		"cryptocurrencies"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Rifkat Adeev",
+			"email": "adrifkat@gmail.com"
+		}
+	],
+	"require": {
+		"php": "^7.4|^8.0",
+		"netresearch/jsonmapper": "^4.0",
+		"guzzlehttp/guzzle": "^7.2",
+		"ext-json": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Adrifkat\\Cryptopanic\\": "src/"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
